@@ -4,8 +4,10 @@
   "description": "HackYourFuture Node.js Week 3 - Homework",
   "repository": "https://github.com/HackYourFuture/nodejs.git",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "devStart": "nodemon src/index.js "
+    "start": "node src/index.js ",
+    "dev": "nodemon src/index.js "
   },
   "author": "George Sapkin",
   "license": "MIT",
